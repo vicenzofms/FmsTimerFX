@@ -1,0 +1,114 @@
+.root{
+    -fx-background-color: #dfeecd;
+}
+
+.lblTitle{
+    -fx-font-size: 80px;
+    -fx-text-fill: #1d676f;/*#699DC2  claro*/
+    -fx-font-family: 'Gill Sans MT', Arial, sans-serif;
+    -fx-alignment: center;
+}
+
+.NormalText{
+    -fx-font-size: 15px;
+    -fx-text-fill: #1d676f;/*#8ACEFF*/
+    -fx-font-family: 'Gill Sans MT', Arial, sans-serif;
+    -fx-text-alignment: center;
+}
+
+.ScrambleText{
+    -fx-font-size: 17px;
+    -fx-text-fill: #1d676f;/*#8ACEFF*/
+    -fx-font-family: 'Gill Sans MT', Arial, sans-serif;
+    -fx-text-alignment: center;
+    -fx-stroke-width: bold;
+    -fx-font-weight: bold;
+}
+
+.TimeText{
+    -fx-font-size: 72px;
+    -fx-text-fill: #1d676f;/*#8ACEFF  claro*/
+    -fx-font-family: 'Gill Sans MT', Arial, sans-serif;
+    -fx-text-alignment: center;
+}
+
+.BtnCloseWindowX{
+    -fx-background-color: #9cd1b6;/*#FF4841*/
+    -fx-font-size: 13;
+    -fx-font-family: "Tw Cen MT", Arial, sans-serif;
+    -fx-stroke-width: bold;
+    -fx-text-fill: #626666;
+    -fx-background-radius: 0;
+
+}
+
+
+
+.BtnEnter{
+    -fx-font-size: 17px;
+    -fx-background-color: #9cd1b6; /*#456780*/
+    -fx-text-fill: #1d676f;/*#223440 */
+    /*-fx-border-width: 5px;
+    -fx-border-color: #E6C850;/*#223440*/
+    -fx-font-family: 'Gill Sans MT', Arial, sans-serif;
+    -fx-text-alignment: center;
+    -fx-stroke-width: bold;
+    -fx-font-weight: bold;
+}
+
+.NormalBtn{
+    -fx-font-size: 17px;
+    -fx-background-color: #9cd1b6; /*#456780*/
+    /*-fx-text-fill: #8FE7FF;/*#223440 */
+    -fx-text-fill: #1d676f;
+    /*-fx-border-width: 5px;
+    -fx-border-color: #E6C850;/*#223440*/
+    -fx-font-family: 'Gill Sans MT', Arial, sans-serif;
+    -fx-text-alignment: center;
+    -fx-stroke-width: bold;
+}
+
+.topBarDesign{
+    -fx-background-color: #9cd1b6;
+}
+
+
+.generalPanels{
+    -fx-border-width: 3;
+    -fx-border-color: #1d676f;/*#223440 claro*/
+}
+
+.listViewSessions{
+     -fx-background-color: rgba(61,67,74,0.98);
+     -fx-font-family: 'Gill Sans MT', Arial, sans-serif;
+     -fx-font-size: 14px;
+     -fx-text-fill: #1d676f;/*rgba(85, 169, 224, 1)*/
+     -fx-alignment: center;
+     -fx-border-width: 3;
+     -fx-selection-bar: #1d676f;
+     -fx-border-color: #1d676f;/*rgba(8, 133, 156, 1)*/
+ }
+
+.textAreaComment {
+    -fx-font-size: 15px;
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color:#1d676f;
+    -fx-text-fill: #1d676f;/*#8ACEFF*/
+    -fx-font-family: 'Gill Sans MT', Arial, sans-serif;
+    -fx-text-alignment: center;
+    -fx-border-color: #1d676f;
+}
+.textAreaComment .content{
+    -fx-background-color: #dfeecd;
+}
+
+.listViewTimes{
+    -fx-font-family: 'Gill Sans MT', Arial, sans-serif;
+    -fx-font-size: 13px;
+    -fx-text-fill: #1d676f;/*rgba(85, 169, 224, 1)*/
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+    -fx-border-width: 3;
+    -fx-selection-bar: #1d676f;
+    -fx-border-color: #1d676f;/*rgba(8, 133, 156, 1)*/
+}
